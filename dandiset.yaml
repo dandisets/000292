@@ -36,7 +36,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
 citation: Howard, Derek; Chameh, Homeira Moradi; Valiante, Taufik; Tripathy, Shreejoy
   (2022) UHN whole-cell patch-clamp excitability recordings from mouse cortical neurons
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000292/draft
+  (Version 0.220708.1652) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000292/0.220708.1652
 contributor:
 - affiliation: []
   email: derekhoward@gmail.com
@@ -80,10 +80,12 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2022-07-07T21:28:23.171592+00:00'
+datePublished: '2022-07-08T16:52:23.775311+00:00'
 description: Whole-cell patch clamp recordings from acute mouse brain slices of layer
   5 cortex.
+doi: 10.48324/dandi.000292/0.220708.1652
 ethicsApproval: []
-id: DANDI:000292/draft
+id: DANDI:000292/0.220708.1652
 identifier: DANDI:000292
 keywords:
 - excitability
@@ -92,14 +94,26 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000292/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000292/0.220708.1652/assets.yaml
 name: UHN whole-cell patch-clamp excitability recordings from mouse cortical neurons
 protocol: []
+publishedBy:
+  endDate: '2022-07-08T16:52:23.775311+00:00'
+  id: urn:uuid:4c73b6fd-cadf-4c76-8022-441767b1e990
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-07-08T16:52:23.775311+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8c113f94-617f-426a-a746-59cc2e5e2208
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000292/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000292/0.220708.1652
+version: 0.220708.1652
 wasGeneratedBy: []
